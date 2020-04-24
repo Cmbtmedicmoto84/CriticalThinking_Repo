@@ -10,6 +10,8 @@ namespace CriticalThinkingWorksheetProject
     {
         static void Main(string[] args)
         {
+            ForLoop loops = new ForLoop();
+            loops.RunLoop();
         }
     }
 }
