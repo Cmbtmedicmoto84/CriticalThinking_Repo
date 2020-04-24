@@ -11,22 +11,24 @@ namespace CriticalThinkingWorksheetProject
     {
         //variables
         int i;
+        int number;
 
         //constructor
         public ForLoop()
         {
-            i = 0;
+            i = 5;
+            number = 5;
+            
         }   
 
         //methods
-        public void RunLoop()
+        public void RunReverseLoop()
         {
-            for (int i = 0; i < 5; i++)
+            for (int i = number - 1; i <= 9; i--)
             {
                 Console.WriteLine(i);
                 Console.ReadLine();
             }
         }
-
     }
 }
