@@ -11,13 +11,13 @@ namespace CriticalThinkingWorksheetProject
         static void Main(string[] args)
         {
             ForLoop loops = new ForLoop();
-            //loops.GreetingLooped();
+            loops.GreetingLooped_ForLengthOfWord();
 
             //loops.RunLoop();
 
             //loops.RunReverseLoop();
 
-            loops.RunLoop_ByIndividualLetter();
+            //loops.RunLoop_ByIndividualLetter();
 
 
 

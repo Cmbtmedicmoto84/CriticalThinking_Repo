@@ -22,7 +22,7 @@ namespace CriticalThinkingWorksheetProject
         public ForLoop()
         {
 
-            greeting = "";
+            greeting = "Hello World";
             i = 0;
             //number = 5;
 
@@ -31,16 +31,12 @@ namespace CriticalThinkingWorksheetProject
         //methods
         public void GreetingLooped_ForLengthOfWord()
         {
-            string userInput;
-            Console.Write("Enter word: ");
-            userInput = Console.ReadLine();
-
-            int i = 0;
-            for (; i <= userInput.Length; i++)
+            string greeting;
+            greeting = "Hello World";
+            for (i = 0; i < greeting.Length; i++)
             {
-                Console.WriteLine(userInput);
-                i++;
-                continue;
+                Console.Write(i + ",");
+                //Console.ReadLine();
             }
         }
 
