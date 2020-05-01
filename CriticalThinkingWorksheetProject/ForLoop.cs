@@ -11,17 +11,17 @@ namespace CriticalThinkingWorksheetProject
     class ForLoop
     {
         //variables
-        string greeting;
-        int i;
-        int number;
-        
+        private string greeting;
+        private int i;
+        private int number;
+
 
 
         //constructor
         public ForLoop()
         {
-            
-            greeting = "Hello World";
+
+            greeting = "";
             i = 0;
             //number = 5;
 
@@ -35,7 +35,7 @@ namespace CriticalThinkingWorksheetProject
             userInput = Console.ReadLine();
 
             int i = 0;
-            for (; i >= userInput.Length; i++)
+            for (; i <= userInput.Length; i++)
             {
                 Console.WriteLine(userInput);
                 i++;
@@ -43,19 +43,27 @@ namespace CriticalThinkingWorksheetProject
             }
         }
 
-        
+
         public void RunLoop()
         {
-            //string greeting = "";
-            for (int i = greeting.Length; i < greeting.Length; i++)
+            string userInput;
+            Console.Write("Enter word: ");
+            userInput = Console.ReadLine();
+
+            for (; i <= userInput.Length;)
             {
-                if (i != greeting.Length)
-                {
-                    continue;
-                }
-                Console.WriteLine(greeting);
+                //if (i == userInput.Length)
+                //{
+
+                //}
+                Console.WriteLine(userInput);
                 Console.ReadLine();
+                //i++;
+
+                
             }
+            Console.ReadLine();
+            return;
         }
         public void RunReverseLoop()
         {
@@ -64,6 +72,11 @@ namespace CriticalThinkingWorksheetProject
                 Console.WriteLine(i);
                 Console.ReadLine();
             }
+        }
+
+        public void RunForever()
+        {
+
         }
 
     }
