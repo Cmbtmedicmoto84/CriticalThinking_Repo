@@ -18,7 +18,11 @@ namespace CriticalThinkingWorksheetProject
 
             //loops.RunLoop_ByIndividualLetter();
 
-            loops.RunLoop_EveryOtherLetter();
+            //loops.RunLoop_EveryOtherLetter();
+
+            //loops.RunLoop_ifDivisibleByThree();
+
+            loops.WhileLoop_excercise();
 
             //loops.RunReverseLoop();
 

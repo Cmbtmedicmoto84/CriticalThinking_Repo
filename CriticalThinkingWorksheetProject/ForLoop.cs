@@ -74,6 +74,34 @@ namespace CriticalThinkingWorksheetProject
             }
         }
 
+        public void RunLoop_ifDivisibleByThree()
+        {
+            string greeting;
+            greeting = "Hello World";
+            for (int i = 0; i < greeting.Length; i++)
+            {
+                if (i % 3 == 0)
+                {
+                    Console.WriteLine(greeting[i]);
+                }
+
+            }
+        }
+
+        public void WhileLoop_excercise()
+        {
+            Console.Write("Enter desired number value: ");
+            int userInput = int.Parse(Console.ReadLine());
+            int count = 0;
+            while (count < userInput)
+            {
+                count++;
+                Console.WriteLine(count);
+                continue;
+            }
+            Console.ReadLine();
+        }
+
     }
 
 
