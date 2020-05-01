@@ -10,7 +10,8 @@ namespace CriticalThinkingWorksheetProject
     {
         static void Main(string[] args)
         {
-            ForLoop loops = new ForLoop();
+            //ForLoop loops = new ForLoop();
+            CalculatorMadness calcs = new CalculatorMadness();
 
             //loops.RunLoop_AsLongAsUserWants();
 
@@ -22,9 +23,13 @@ namespace CriticalThinkingWorksheetProject
 
             //loops.RunLoop_ifDivisibleByThree();
 
-            loops.WhileLoop_excercise();
+            //loops.WhileLoop_excercise();
+
+            //loops.WhileLoop_FortyTwo();
 
             //loops.RunReverseLoop();
+
+            calcs.RunCalculations();
 
 
 

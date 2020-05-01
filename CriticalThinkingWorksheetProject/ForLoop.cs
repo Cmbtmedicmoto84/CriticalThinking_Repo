@@ -12,14 +12,14 @@ namespace CriticalThinkingWorksheetProject
     class ForLoop
     {
         //variables
-        private string greeting;
+        //private string greeting;
         private int i;
-        private int number;
+        //private int number;
 
         //constructor
         public ForLoop()
         {
-            greeting = "Hello World";
+            //greeting = "Hello World";
             i = 0;
             //number = 5;
         }
@@ -101,6 +101,25 @@ namespace CriticalThinkingWorksheetProject
             }
             Console.ReadLine();
         }
+
+        public void WhileLoop_FortyTwo()  //coming  back to this one
+        {
+            Console.Write("Please enter the number 42: ");
+            int userInput = int.Parse(Console.ReadLine());
+            int expected = 42;
+            while (userInput != expected)
+            {
+                Console.WriteLine("Incorrect value entered, please enther the number 42 in order to continue!");
+                return;
+            }
+            if (userInput == 42)
+            {
+                Console.WriteLine("Thank you!  That is correct!!");
+                return;
+            }
+            Console.ReadLine();
+        }   
+
 
     }
 
