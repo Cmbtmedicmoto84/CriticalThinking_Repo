@@ -10,14 +10,14 @@ namespace CriticalThinkingWorksheetProject
     {
         static void Main(string[] args)
         {
-            //ForLoop loops = new ForLoop();
+            ForLoop loops = new ForLoop();
             //loops.GreetingLooped();
 
-            ForLoop loops = new ForLoop();
-            loops.RunLoop();
+            //loops.RunLoop();
 
-            //ForLoop loops = new ForLoop();
             //loops.RunReverseLoop();
+
+            loops.RunLoop_ByIndividualLetter();
 
 
 
@@ -25,15 +25,6 @@ namespace CriticalThinkingWorksheetProject
 
             Console.ReadLine();
 
-
-
-
-            
-
-            
-            //Console.WriteLine();
-            //Console.ReadLine();
-            //loops.ReverseLoop();
         }
     }
 }

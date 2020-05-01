@@ -1,6 +1,7 @@
 ﻿using System;
 using System.CodeDom;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Net;
 using System.Text;
@@ -28,7 +29,7 @@ namespace CriticalThinkingWorksheetProject
         }
 
         //methods
-        public void GreetingLooped()
+        public void GreetingLooped_ForLengthOfWord()
         {
             string userInput;
             Console.Write("Enter word: ");
@@ -44,7 +45,7 @@ namespace CriticalThinkingWorksheetProject
         }
 
 
-        public void RunLoop()
+        public void RunLoop_AsLongAsUserWants()
         {
             string userInput;
             Console.Write("Enter word: ");
@@ -52,32 +53,34 @@ namespace CriticalThinkingWorksheetProject
 
             for (; i <= userInput.Length;)
             {
-                //if (i == userInput.Length)
-                //{
-
-                //}
                 Console.WriteLine(userInput);
-                Console.ReadLine();
-                //i++;
-
-                
+                Console.ReadLine(); 
             }
             Console.ReadLine();
             return;
         }
-        public void RunReverseLoop()
+        public void RunLoop_ByIndividualLetter()
         {
-            for (int i = 0; i < 9; i--)
+            string userInput;
+            Console.Write("Enter word: ");
+            userInput = Console.ReadLine();
+
+            foreach (char c in userInput)
             {
-                Console.WriteLine(i);
+                Console.WriteLine(c);
                 Console.ReadLine();
             }
-        }
-
-        public void RunForever()
-        {
-
+            
         }
 
     }
+
+
+
+    //for (int i = 0; i < userInput.Length; i++)
+    //{
+    //    Console.WriteLine(userInput[i]);
+    //    i++;
+    //    continue;
+    //}
 }
