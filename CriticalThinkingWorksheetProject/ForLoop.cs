@@ -16,57 +16,62 @@ namespace CriticalThinkingWorksheetProject
         private int i;
         private int number;
 
-
-
         //constructor
         public ForLoop()
         {
-
             greeting = "Hello World";
             i = 0;
             //number = 5;
-
         }
 
         //methods
+        public void RunLoop_AsLongAsUserWants()
+        {
+            string greeting;
+            greeting = "Hello World";
+            for (; i <= greeting.Length;)
+            {
+                Console.WriteLine(greeting);
+                Console.ReadLine();
+            }
+            Console.ReadLine();
+            return;
+        }
+
         public void GreetingLooped_ForLengthOfWord()
         {
             string greeting;
             greeting = "Hello World";
-            for (i = 0; i < greeting.Length; i++)
+            for (i = 0; i <= greeting.Length; i++)
             {
                 Console.Write(i + ",");
                 //Console.ReadLine();
             }
         }
 
-
-        public void RunLoop_AsLongAsUserWants()
-        {
-            string userInput;
-            Console.Write("Enter word: ");
-            userInput = Console.ReadLine();
-
-            for (; i <= userInput.Length;)
-            {
-                Console.WriteLine(userInput);
-                Console.ReadLine(); 
-            }
-            Console.ReadLine();
-            return;
-        }
         public void RunLoop_ByIndividualLetter()
         {
-            string userInput;
-            Console.Write("Enter word: ");
-            userInput = Console.ReadLine();
-
-            foreach (char c in userInput)
+            string greeting;
+            greeting = "Hello World";
+            foreach (char c in greeting)
             {
                 Console.WriteLine(c);
-                Console.ReadLine();
+                //Console.ReadLine();
             }
             
+        }
+        public void RunLoop_EveryOtherLetter()
+        {
+            string greeting;
+            greeting = "Hello World";       
+            for (int i = 0; i < greeting.Length; i++)
+            {
+                if(i % 2 == 0)
+                {
+                    Console.WriteLine(greeting[i]);
+                }
+                
+            }
         }
 
     }
