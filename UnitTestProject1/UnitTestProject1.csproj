@@ -55,6 +55,12 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CriticalThinkingWorksheetProject\CriticalThinkingWorksheetProject.csproj">
+      <Project>{308ea6f1-06f5-48d0-8ee0-d28ab6a19853}</Project>
+      <Name>CriticalThinkingWorksheetProject</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

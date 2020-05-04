@@ -18,14 +18,12 @@ namespace CriticalThinkingWorksheetProject
             availableStorage = availableStorages;      
         }
 
-        public void InstallApplication(Applications app, HardDrive hadrDrive, RAM ram)
+        public void InstallApplication(Applications applications)
         {
-            List<Applications> AppsInHardDrive = new List<Applications>();
+            Applications application = new Applications("Slack", "Messenger Service", 4.0, 0.512);
 
-            AppsInHardDrive.Add(appName);
-            AppsInHardDrive.Add(appType);
-            AppsInHardDrive.Add(requiredRAM);
-            AppsInHardDrive.Add(requiredStorage);
+
+            
         }
     }
 }

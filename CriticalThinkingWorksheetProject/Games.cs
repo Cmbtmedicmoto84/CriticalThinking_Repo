@@ -8,8 +8,13 @@ namespace CriticalThinkingWorksheetProject
 {
     public class Games : Applications
     {
+        double requiredEffectiveMemory;
+
+
         public Games()
         {
+            
+
 
         }
     }

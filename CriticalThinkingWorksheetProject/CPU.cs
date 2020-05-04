@@ -27,9 +27,12 @@ namespace CriticalThinkingWorksheetProject
         {
 
             
-            if (ram >= )
+            
+            
+            bool meetsRequirements = true;
+            if (meetsRequirements)
             {
-
+                //install software/app
             }
         }
     }

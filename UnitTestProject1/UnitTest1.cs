@@ -1,5 +1,7 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using CriticalThinkingWorksheetProject;
+
 
 namespace UnitTestProject1
 {
@@ -10,6 +12,9 @@ namespace UnitTestProject1
         public void TestMethod_CheckApplicationRequirements()
         {
             //arrange
+            List<Applications> AppsInHardDrive = new List<Applications>();
+            string 
+
 
 
             //act
