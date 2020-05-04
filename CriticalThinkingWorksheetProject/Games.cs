@@ -6,8 +6,11 @@ using System.Threading.Tasks;
 
 namespace CriticalThinkingWorksheetProject
 {
-    class Computer
+    public class Games : Applications
     {
+        public Games()
+        {
 
+        }
     }
 }

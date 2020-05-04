@@ -11,7 +11,7 @@ namespace CriticalThinkingWorksheetProject
         static void Main(string[] args)
         {
             //ForLoop loops = new ForLoop();
-            CalculatorMadness calcs = new CalculatorMadness();
+            //CalculatorMadness calcs = new CalculatorMadness();
 
             //loops.RunLoop_AsLongAsUserWants();
 
@@ -29,7 +29,7 @@ namespace CriticalThinkingWorksheetProject
 
             //loops.RunReverseLoop();
 
-            calcs.RunCalculations();
+            //calcs.RunCalculations();
 
 
 

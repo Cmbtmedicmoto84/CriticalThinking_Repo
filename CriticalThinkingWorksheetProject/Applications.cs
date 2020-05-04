@@ -6,21 +6,20 @@ using System.Threading.Tasks;
 
 namespace CriticalThinkingWorksheetProject
 {
-    class Applications
+    public abstract class Applications
     {
-        public string ApplicationName;
-        public string ApplicationType;
-        public double RequiredRAM;
-        public double RequiredStorage;
+        public string appName;
+        public string appType;
+        public double requiredRAM;
+        public double requiredStorage;
 
-        public Applications()
+        
+        public Applications(string appName, string appType, double requiredRAM, double requiredStorage)
         {
-            ApplicationName = "Slack";
-            ApplicationType = "Messaging service";
-            RequiredRAM = 4.0;
-            RequiredStorage = 0.512;
-
-
+            appName = "Slack";
+            appType = "Messaging service";
+            requiredRAM = 4.0;
+            requiredStorage = 0.512;
         }
     }
 }

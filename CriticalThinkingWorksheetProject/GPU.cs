@@ -9,19 +9,14 @@ namespace CriticalThinkingWorksheetProject
 {
     class GPU
     {
-        public string Manufacturer;
-        public double EffectiveMemory;
+        public string manufacturer;
+        public double effectiveMemory;
 
-        public GPU(string manufacturer, double effectiveMemory)
+        public GPU(string manufacturers, double effectiveMemorys)
         {
 
-            Manufacturer = manufacturer;
-            EffectiveMemory = effectiveMemory;
-            
-            //Console.WriteLine("Type in the desired manufacturer for your new GPU: ");
-            //string valueOneGpu = Console.ReadLine();
-            //Console.WriteLine("Please type in the desired memory for your chosen GPU: ");
-            //double valueTwoGpu = double.Parse(Console.ReadLine());
+            manufacturer = manufacturers;
+            effectiveMemory = effectiveMemorys;
         }  
     }
 }

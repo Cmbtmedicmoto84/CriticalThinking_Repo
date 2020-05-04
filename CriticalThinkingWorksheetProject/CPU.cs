@@ -8,20 +8,29 @@ namespace CriticalThinkingWorksheetProject
 {
     class CPU
     {
-        public string Manufacturer;
-        public string Name;
+        public string manufacturer;
+        public string name;
+        private Applications applications;
 
-        public CPU(string manufacturer, string name)
+
+        public CPU(string names, string manufacturers)
         {
-            Manufacturer = manufacturer;
-            Name = name;
+            string manufacturer = manufacturers;
+            string name = names;
+        }
+
+
+
+
+
+        public bool CheckRequirements(HardDrive hardDrive, RAM ram)
+        {
 
             
-            
-            //Console.WriteLine("Type in the desired manufacturer for your new CPU: ");
-            //string valueOneCpu = Console.ReadLine();
-            //Console.WriteLine("Please type in the desired model name for your chosen manufacturer: ");
-            //string valueTwoCpu = Console.ReadLine();
+            if (ram >= )
+            {
+
+            }
         }
     }
 }

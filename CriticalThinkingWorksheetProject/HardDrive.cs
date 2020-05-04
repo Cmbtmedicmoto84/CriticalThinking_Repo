@@ -8,21 +8,24 @@ namespace CriticalThinkingWorksheetProject
 {
     class HardDrive
     {
-        public double TotalStorage;
-        public double AvailableStorage;
-        public List<Applications> ApplicationsinHardDrive;
+        public double totalStorage;
+        public double availableStorage;
 
 
-        public HardDrive(double totalStorage, double availableStorage)
+        public HardDrive(double totalStorages, double availableStorages)
         {
-            TotalStorage = totalStorage;
-            AvailableStorage = availableStorage;
-            
-            //Console.WriteLine("Type in the desired amount of stroage for the hard drive: ");
-            //double valueOneHdd = double.Parse(Console.ReadLine());
-            //Console.WriteLine("Would you like to add a secondary hard drive to your setup?");
-            //var userInput = Console.ReadLine();
-      
+            totalStorage = totalStorages;
+            availableStorage = availableStorages;      
+        }
+
+        public void InstallApplication(Applications app, HardDrive hadrDrive, RAM ram)
+        {
+            List<Applications> AppsInHardDrive = new List<Applications>();
+
+            AppsInHardDrive.Add(appName);
+            AppsInHardDrive.Add(appType);
+            AppsInHardDrive.Add(requiredRAM);
+            AppsInHardDrive.Add(requiredStorage);
         }
     }
 }

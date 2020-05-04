@@ -8,24 +8,21 @@ namespace CriticalThinkingWorksheetProject
 {
     class Motherboard
     {
-        public string Manufacturer;
-        public CPU Processor;
-        public RAM TemporaryMemory;
-        public HardDrive Storage;
-        public GPU Graphics;
+        public string manufacturer;
+        public CPU processor;
+        public RAM temporaryMemory;
+        public HardDrive storage;
+        public GPU graphics;
 
-        public Motherboard(string manufacturer, CPU cpu, RAM ram, HardDrive hardDrive, GPU gpu)
+        public Motherboard(string manufacturers, CPU cpus, RAM rams, HardDrive hardDrives, GPU gpus)
         {
-            Manufacturer = manufacturer;
-            TemporaryMemory = ram;
-            Processor = cpu;
-            Storage = hardDrive;
-            Graphics = gpu;
+            manufacturer = manufacturers;
+            temporaryMemory = rams;
+            processor = cpus;
+            storage = hardDrives;
+            graphics = gpus;
         }
 
-        public void InstallApplication(string ApplicationName)
-        {
-
-        }
+        
     }
 }

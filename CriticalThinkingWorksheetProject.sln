@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CriticalThinkingWorksheetProject", "CriticalThinkingWorksheetProject\CriticalThinkingWorksheetProject.csproj", "{308EA6F1-06F5-48D0-8EE0-D28AB6A19853}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProject1", "UnitTestProject1\UnitTestProject1.csproj", "{685E6267-40D6-4253-8E99-09461E8E5EB6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{308EA6F1-06F5-48D0-8EE0-D28AB6A19853}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{308EA6F1-06F5-48D0-8EE0-D28AB6A19853}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{308EA6F1-06F5-48D0-8EE0-D28AB6A19853}.Release|Any CPU.Build.0 = Release|Any CPU
+		{685E6267-40D6-4253-8E99-09461E8E5EB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{685E6267-40D6-4253-8E99-09461E8E5EB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{685E6267-40D6-4253-8E99-09461E8E5EB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{685E6267-40D6-4253-8E99-09461E8E5EB6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
