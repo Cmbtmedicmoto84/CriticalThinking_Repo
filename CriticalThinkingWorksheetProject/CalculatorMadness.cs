@@ -14,6 +14,25 @@ namespace CriticalThinkingWorksheetProject
             Console.WriteLine("The result of this additions is: " + result);
             return result;
         }
+        public int SubtractNumbers(int numberOne, int numberTwo)
+        {
+            int result = numberOne - numberTwo;
+            Console.WriteLine("The result of this subtractions is: " + result);
+            return result;
+        }
+        public int MultiplyNumbers(int numberOne, int numberTwo)
+        {
+            int result = numberOne * numberTwo;
+            Console.WriteLine("The result of this multiplication is: " + result);
+            return result;
+        }
+        public int DivideNumbers(int numberOne, int numberTwo)
+        {
+            int result = numberOne / numberTwo;
+            Console.WriteLine("The result of the division is: " + result);
+            return result;
+        }
+
 
         public void RunCalculations()
         {
